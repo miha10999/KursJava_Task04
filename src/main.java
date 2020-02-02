@@ -21,6 +21,7 @@ public class main  {
             str = in.nextLine();//записали в переменную
             in.close();// закрыли объект,теперь он не нужен
             dec = Integer.parseInt(str, 2);// перевод из 2СС в 10СС
+
             System.out.println(dec);//выведим результат
             System.out.println("Задание пройдено успешно!");
             System.exit(0);// завершим выполнение программы
